@@ -13,5 +13,11 @@ public class SimpleCalculatorTest {
       
       
    }
+   @Test
+   public void testsub() {
+      SimpleCalculator chap = new SimpleCalculator();
+      chap.sub(10, 20);
+      assertEquals(-10,chap.getResult());
 
+}
 }
